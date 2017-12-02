@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+www/framework7
+www/fonts
