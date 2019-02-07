@@ -9,6 +9,7 @@
   "scripts": {
     "serve": "http-server ./ -o -c 1 -a localhost",
     "copy-f7": "cpy 'node_modules/framework7/js/*.*' framework7/js && cpy 'node_modules/framework7/css/*.*' framework7/css && cpy 'node_modules/framework7-icons/fonts/*.*' fonts && cpy 'node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2}' fonts",
+    "start": "npm run serve",
     "postinstall": "npm run copy-f7"
   },
   "keywords": [
@@ -29,8 +30,8 @@
   "homepage": "https://github.com/framework7io/framework7-template-tabs#readme",
   "devDependencies": {
     "cpy-cli": "^1.0.1",
-    "framework7": "^3.0.0",
-    "framework7-icons": "^0.9.1",
+    "framework7": "^4.0.0",
+    "framework7-icons": "^2.2.0",
     "http-server": "^0.10.0",
     "material-design-icons": "^3.0.1"
   }
